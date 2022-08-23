@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;900&family=Yellowtail&display=swap');
+
+
+* {
+    font-family: 'Lato';
+    background-color: rgb(106, 141, 115, 0.02);
+
+    
+}
+
+h1 {
+    font-family: 'Yellowtail';
+    color: black;
+    font-size: 55px;
+    padding: 0px;
+}
+
+h2 {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 24px;
+    padding: 0px;
+}
+
+h3 {
+    font-family: 'Lato';
+    font-weight: 700;
+}
+
+p1 {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+p2 {
+    font-weight: 200;
+}
+
+p3 {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 12px;
+}
+
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    column-gap: 4px;
+    justify-content: left;
+    align-items: center;  
+    background-color: white;
+    height: 100%;
+    padding: 1vh;
+}
+
+.bannertext {
+    font-weight: 700;
+    text-decoration-color: none;
+    color: black;
+}
+
+.bannertext:hover {
+    font-weight: 700;
+    text-decoration-color: none;
+    color: rgb(106, 141, 115);
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    justify-content: start;
+    row-gap: 0px;
+    height: 100%;
+    background-color: rgba(106, 141, 115, 0.45);
+}
+
+
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 1vh;
+    margin-top: 2vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    padding: 2%;
+    border-radius: 5px;
+    border: rgba(106, 141, 115, 0.0) 2px solid;
+    box-shadow: rgba(128, 128, 128, 0.0) 1px 1px 1px;
+    transition: 500ms;
+}
+
+.work:hover {
+    background-color: rgba(106, 141, 115, 0.12);
+    border: rgba(106, 141, 115, 0.16) 2px solid;
+    box-shadow: rgba(128, 128, 128, 0.5) 1px 1px 1px;
+}
+
+.iconbutton {
+    height: 50px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+}
+
+.icon:hover {
+    border-radius: 20px;
+    border: rgba(106, 141, 115, 0.5) solid 4px;
+}
+
+button {
+    background-color: rgba(106, 141, 115, 0.16);
+    width: 20%;
+    height: 45px;
+    font-family: "Lato";
+    font-weight: 400;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    border: rgba(106, 141, 115, 0.16) 2px solid;
+    box-shadow: rgba(128, 128, 128, 0.5) 1px 1px 1px;
+}
+
